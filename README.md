@@ -7,7 +7,7 @@ This project automates the process of sharing your coding milestones. Whether yo
 
 ## Automation
 
-![IMAGE]()
+![IMAGE](https://github.com/i-ayush-7/LinkedIn-Post-Automation/blob/main/Automation.png)
 
 ## Resources & Prompts
 
