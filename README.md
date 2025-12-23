@@ -1,23 +1,30 @@
 # LinkedIn Post Automation
 
-```javascript
+## Overview
+Automatically generate and publish LinkedIn posts directly from your GitHub repository updates.
 
-```
+This project automates the process of sharing your coding milestones. Whether you just published a new Release, pushed a major Commit, or updated a Project Board, this tool formats the update and posts it to your LinkedIn profile via the official API.
 
-## HTTP Request
-### URL:
+## Automation
+
+![IMAGE]()
+
+## Resources & Prompts
+
+### HTTP Request
+#### URL:
 ```url
 https://api.github.com/user/repos
 ```
 
-## HTTP Request1
-### URL:
+### HTTP Request1
+#### URL:
 ```url
 https://raw.githubusercontent.com/{{ $json.full_name }}/main/README.md
 ```
 
-## AI Agent
-### Prompt:
+### AI Agent
+#### Prompt:
 ```text
 You are a professional social media manager.
 
@@ -39,29 +46,29 @@ Write a short, engaging LinkedIn post (max 150 words) to announce this project.
 - Tone: Enthusiastic but professional.
 ```
 
-## HTTP Request2
-### URL:
+### HTTP Request2
+#### URL:
 ```url
 https://api.linkedin.com/v2/userinfo
 ```
 
-### Authorization URL:
+#### Authorization URL:
 ```url
 https://www.linkedin.com/oauth/v2/authorization
 ```
 
-### Access Token URL:
+#### Access Token URL:
 ```url
 https://www.linkedin.com/oauth/v2/accessToken
 ```
 
-## HTTP Request3
-### URL:
+### HTTP Request3
+#### URL:
 ```url
 https://api.linkedin.com/v2/ugcPosts
 ```
 
-### Body JSON:
+#### Body JSON:
 ```json
 {{
   {
