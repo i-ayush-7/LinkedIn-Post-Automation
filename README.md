@@ -4,7 +4,8 @@
 
 ```
 
-## HTTP Request:
+## HTTP Request
+### URL:
 ```url
 https://api.github.com/user/repos
 ```
